@@ -1,0 +1,27 @@
+!st thing before creating your backend is to 
+
+"npm init" for intialization of your project
+
+Install express app for your backend .
+
+"Express js is a node frame work use to build single page application.
+
+
+for connecting to the backend 
+
+1st create -> db folder
+inside it install "npm i mongoose"
+Store all the password and code from mongo db
+
+// here i am getting all the routes of all the product.( getting all the routes)
+const products_routs=require("./routs/products")
+// middleware or set router( this is when enter the following end point ,)
+app.use("/api/products",products_routs);
+
+
+// How to send data directly to the mongo db.
+
+--> Create Json data
+--> create file lets say productDb 
+--> Connect to the data base 1st 
+--> then by using create method send the data to mongodb
